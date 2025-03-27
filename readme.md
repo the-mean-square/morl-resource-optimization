@@ -30,4 +30,19 @@ Once you are done working, deactivate the virtual environment by running:
 
 ********
 
-Caveat: * Do not create venv inside the working directory [Use .gitignore to exclude venv/ if at all] *
+Note: *Use .gitignore to exclude venv *
+
+Inside your project root (morl-resource-optimization/), create a file named .gitignore and add the following:
+    venv/
+    __pycache__/
+    *.pyc
+    *.pyo
+
+
+*****
+Key notes:
+- Where to Place __init__.py?
+- Inside any directory that contains Python modules (.py files) and needs to be imported
+- os.path.abspath("app/data/input_schedule.csv")
+- Finds the correct path relative to your project directory. This makes the code portable and works across any system.
+- test assertions need to be improved to make testing comprehensive 

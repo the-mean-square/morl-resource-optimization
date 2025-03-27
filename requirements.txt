@@ -4,3 +4,4 @@ ray==2.10.0
 scikit-learn==1.4.2
 torch==2.2.2
 gym==0.26.2
+pytest==8.3.5
