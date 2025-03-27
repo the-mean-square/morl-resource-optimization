@@ -3,6 +3,11 @@
 
 import pandas as pd
 import numpy as np
+import gym 
 
 class AirportEnv(gym.Env):
-    pass
+    @staticmethod
+    def parse_input_schedule(file_location):
+        """ function to parse input schedule and return the schedule dataframe """
+        schedule_df = pd.read_csv(file_location)
+        return schedule_df

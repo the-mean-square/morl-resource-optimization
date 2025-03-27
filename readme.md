@@ -12,7 +12,7 @@ Environment Setup:
     If default python version, use --> python -m venv venv
     If specific version --> & "C:\Users\admin\AppData\Local\Programs\Python\Python39\python.exe" -m venv venv
 - This should create the venv. 
-    - --> venv\Scripts\Activate (To activate the venv! -- make sure you run this in the right folder!)
+    - --> venv\Scripts\Activate (To activate the venv -- make sure you run this in the right folder!)
     - Verify --> python --version (mine is 3.9 in the venv)
 ***********
 Package Management:
